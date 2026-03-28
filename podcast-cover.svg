@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6da2ac;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bg)" rx="20"/>
+
+  <!-- Decorative circles (sound waves) -->
+  <circle cx="200" cy="200" r="160" fill="none" stroke="#f6cbda" stroke-width="2" stroke-opacity="0.3"/>
+  <circle cx="200" cy="200" r="130" fill="none" stroke="#f6cbda" stroke-width="2" stroke-opacity="0.4"/>
+  <circle cx="200" cy="200" r="100" fill="none" stroke="#f6cbda" stroke-width="2" stroke-opacity="0.5"/>
+
+  <!-- Microphone icon -->
+  <rect x="178" y="120" width="44" height="80" rx="22" fill="#f6cbda"/>
+  <path d="M155 210 Q155 260 200 260 Q245 260 245 210" fill="none" stroke="#f6cbda" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200" y1="260" x2="200" y2="290" stroke="#f6cbda" stroke-width="6" stroke-linecap="round"/>
+  <line x1="175" y1="290" x2="225" y2="290" stroke="#f6cbda" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Title text -->
+  <text x="200" y="335" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        fill="#ffffff" text-anchor="middle" letter-spacing="2">BOXOUT</text>
+  <text x="200" y="365" font-family="Arial, sans-serif" font-size="18"
+        fill="#f6cbda" text-anchor="middle" letter-spacing="4">HORSENS</text>
+</svg>

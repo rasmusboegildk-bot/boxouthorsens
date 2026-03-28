@@ -87,6 +87,31 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
 
+        /* Radio player */
+        .radio-player {
+            background-color: var(--dark-text);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            color: #fff;
+            text-align: center;
+        }
+
+        .radio-player h2 {
+            margin-bottom: 1rem;
+            color: var(--light-pink);
+        }
+
+        .radio-player audio {
+            width: 100%;
+            margin-bottom: 0.75rem;
+        }
+
+        .radio-status {
+            font-size: 0.85rem;
+            color: var(--teal);
+        }
+
         footer {
             background-color: var(--teal);
             color: #fff;
@@ -105,7 +130,7 @@
 
     <main>
         <div class="podcast-cover">
-            <img src="podcast-cover.jpg" alt="Boxout Horsens Podcast Omslagsbillede">
+            <img src="podcast-cover.svg" alt="Boxout Horsens Podcast Omslagsbillede">
         </div>
 
         <section class="about">
@@ -113,9 +138,18 @@
             <p>Boxout Horsens er en podcast dedikeret til musik. Passionen er i centrum, og både upcoming og etablerede artister får en stemme.</p>
         </section>
 
+        <section class="radio-player">
+            <h2>🎙️ Lyt til Boxout Horsens Radio</h2>
+            <audio id="radioPlayer" controls preload="none">
+                <source src="https://stream.boxouthorsens.dk/radio" type="audio/mpeg">
+                Din browser understøtter ikke audio-afspilning.
+            </audio>
+            <p class="radio-status" id="radioStatus">Klar til afspilning</p>
+        </section>
+
         <section class="support">
             <h2>Støt os via MobilePay</h2>
-            <img src="mobilepay.jpg" alt="MobilePay QR-kode til støtte af Boxout Horsens">
+            <img src="mobilepay.svg" alt="MobilePay QR-kode til støtte af Boxout Horsens">
         </section>
     </main>
 
@@ -123,5 +157,16 @@
         <p>&copy; 2025 Boxout Horsens</p>
     </footer>
 
+    <script>
+        const player = document.getElementById('radioPlayer');
+        const status = document.getElementById('radioStatus');
+        if (player && status) {
+            player.addEventListener('playing', () => { status.textContent = '▶ Sender live...'; });
+            player.addEventListener('pause',   () => { status.textContent = 'Sat på pause'; });
+            player.addEventListener('waiting', () => { status.textContent = 'Loader stream...'; });
+            player.addEventListener('error',   () => { status.textContent = 'Kunne ikke oprette forbindelse til streamen. Prøv igen senere.'; });
+            player.addEventListener('ended',   () => { status.textContent = 'Afspilning afsluttet'; });
+        }
+    </script>
 </body>
 </html>

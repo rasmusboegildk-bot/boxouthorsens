@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" width="300" height="340">
+  <!-- White background -->
+  <rect width="300" height="340" fill="#ffffff" rx="12"/>
+
+  <!-- MobilePay purple header bar -->
+  <rect width="300" height="50" fill="#5a189a" rx="12"/>
+  <rect y="30" width="300" height="20" fill="#5a189a"/>
+  <text x="150" y="32" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        fill="#ffffff" text-anchor="middle">MobilePay</text>
+
+  <!-- QR code border frame -->
+  <rect x="30" y="65" width="240" height="240" fill="#f9f9f9" rx="4" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Top-left finder pattern -->
+  <rect x="45" y="80" width="60" height="60" rx="4" fill="#2c3e50"/>
+  <rect x="52" y="87" width="46" height="46" rx="3" fill="#ffffff"/>
+  <rect x="59" y="94" width="32" height="32" rx="2" fill="#2c3e50"/>
+
+  <!-- Top-right finder pattern -->
+  <rect x="195" y="80" width="60" height="60" rx="4" fill="#2c3e50"/>
+  <rect x="202" y="87" width="46" height="46" rx="3" fill="#ffffff"/>
+  <rect x="209" y="94" width="32" height="32" rx="2" fill="#2c3e50"/>
+
+  <!-- Bottom-left finder pattern -->
+  <rect x="45" y="230" width="60" height="60" rx="4" fill="#2c3e50"/>
+  <rect x="52" y="237" width="46" height="46" rx="3" fill="#ffffff"/>
+  <rect x="59" y="244" width="32" height="32" rx="2" fill="#2c3e50"/>
+
+  <!-- QR data modules (decorative pattern) -->
+  <rect x="120" y="80" width="8" height="8" fill="#2c3e50"/>
+  <rect x="132" y="80" width="8" height="8" fill="#2c3e50"/>
+  <rect x="144" y="80" width="8" height="8" fill="#2c3e50"/>
+  <rect x="156" y="80" width="8" height="8" fill="#2c3e50"/>
+  <rect x="120" y="92" width="8" height="8" fill="#2c3e50"/>
+  <rect x="144" y="92" width="8" height="8" fill="#2c3e50"/>
+  <rect x="168" y="92" width="8" height="8" fill="#2c3e50"/>
+  <rect x="120" y="104" width="8" height="8" fill="#2c3e50"/>
+  <rect x="132" y="104" width="8" height="8" fill="#2c3e50"/>
+  <rect x="156" y="104" width="8" height="8" fill="#2c3e50"/>
+  <rect x="120" y="116" width="8" height="8" fill="#2c3e50"/>
+  <rect x="144" y="116" width="8" height="8" fill="#2c3e50"/>
+  <rect x="168" y="116" width="8" height="8" fill="#2c3e50"/>
+  <rect x="132" y="128" width="8" height="8" fill="#2c3e50"/>
+  <rect x="156" y="128" width="8" height="8" fill="#2c3e50"/>
+  <rect x="120" y="140" width="8" height="8" fill="#2c3e50"/>
+  <rect x="132" y="140" width="8" height="8" fill="#2c3e50"/>
+  <rect x="144" y="140" width="8" height="8" fill="#2c3e50"/>
+  <rect x="168" y="140" width="8" height="8" fill="#2c3e50"/>
+
+  <rect x="120" y="160" width="8" height="8" fill="#2c3e50"/>
+  <rect x="144" y="160" width="8" height="8" fill="#2c3e50"/>
+  <rect x="156" y="160" width="8" height="8" fill="#2c3e50"/>
+  <rect x="168" y="160" width="8" height="8" fill="#2c3e50"/>
+  <rect x="132" y="172" width="8" height="8" fill="#2c3e50"/>
+  <rect x="156" y="172" width="8" height="8" fill="#2c3e50"/>
+  <rect x="120" y="184" width="8" height="8" fill="#2c3e50"/>
+  <rect x="144" y="184" width="8" height="8" fill="#2c3e50"/>
+  <rect x="168" y="184" width="8" height="8" fill="#2c3e50"/>
+  <rect x="132" y="196" width="8" height="8" fill="#2c3e50"/>
+  <rect x="144" y="196" width="8" height="8" fill="#2c3e50"/>
+  <rect x="156" y="196" width="8" height="8" fill="#2c3e50"/>
+
+  <rect x="132" y="230" width="8" height="8" fill="#2c3e50"/>
+  <rect x="144" y="230" width="8" height="8" fill="#2c3e50"/>
+  <rect x="156" y="230" width="8" height="8" fill="#2c3e50"/>
+  <rect x="168" y="230" width="8" height="8" fill="#2c3e50"/>
+  <rect x="120" y="242" width="8" height="8" fill="#2c3e50"/>
+  <rect x="144" y="242" width="8" height="8" fill="#2c3e50"/>
+  <rect x="168" y="242" width="8" height="8" fill="#2c3e50"/>
+  <rect x="132" y="254" width="8" height="8" fill="#2c3e50"/>
+  <rect x="156" y="254" width="8" height="8" fill="#2c3e50"/>
+  <rect x="120" y="266" width="8" height="8" fill="#2c3e50"/>
+  <rect x="144" y="266" width="8" height="8" fill="#2c3e50"/>
+  <rect x="168" y="266" width="8" height="8" fill="#2c3e50"/>
+  <rect x="132" y="278" width="8" height="8" fill="#2c3e50"/>
+  <rect x="144" y="278" width="8" height="8" fill="#2c3e50"/>
+
+  <!-- "Støt os" label -->
+  <text x="150" y="322" font-family="Arial, sans-serif" font-size="14"
+        fill="#5a189a" text-anchor="middle" font-weight="bold">Støt Boxout Horsens</text>
+</svg>
